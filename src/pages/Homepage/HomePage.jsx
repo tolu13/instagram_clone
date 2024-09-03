@@ -10,7 +10,7 @@ export const HomePage = () => {
           <FeedPosts />
         </Box>
         <Box flex={3} mr={20} display={{ base: "none", lg: "block"}} maxW={"300px"}>
-          Suggested users 
+          <SuggestedUsers />
         </Box>
       </Flex>
     </Container>
